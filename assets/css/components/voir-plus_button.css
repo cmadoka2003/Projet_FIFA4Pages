@@ -1,0 +1,45 @@
+.discover {
+    position: relative;
+    left: 880px;
+}
+
+.N-10 {
+    position: relative;
+    left: -6px;
+}
+
+.plus {
+    display: none;
+}
+
+#BEL, #POR{
+    margin-left: 41px;
+}
+
+#NED {
+    margin-left: 50px;
+}
+
+#COL {
+    margin-left: 39px;
+}
+
+#ITA, #CAN, #BREF {
+    margin-left: 40px;
+}
+
+#SWE {
+    margin-left: 46px;
+}
+
+#JAP {
+    margin-left: 47px;
+}
+
+#NKR {
+    margin-left: 34px;
+}
+
+#Nul {
+    margin-left: 20px;
+}
