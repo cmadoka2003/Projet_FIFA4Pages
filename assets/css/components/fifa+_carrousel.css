@@ -10,6 +10,8 @@
 .index_carrousel {
     display: flex;
     margin-left: 80px;
+    overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 .index_carrousel h3 {
@@ -71,16 +73,18 @@
 
 #Bloc_10-fleche_g {
     position: relative;
-    display: none;
+    z-index: 999;
     top: -270px;
+    left: 50px;
     width: 28px;
     height: 32px;
 }
 
 #Bloc_10-fleche_d {
     position: relative;
+    z-index: 999;
     top: -270px;
-    left: 1850px;
+    left: 1800px;
     width: 28px;
     height: 32px;
 }

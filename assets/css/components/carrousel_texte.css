@@ -62,8 +62,9 @@ h1 {
 
 
 .part2 {
+    display: flex;
     position: relative;
-    width: 1448.773px;
+    width: 1448px;
     height: 739px;
     color: white;
 }
@@ -73,15 +74,9 @@ h1 {
     top: 0;
     left: 0;
     z-index: 10;
-    background: linear-gradient(rgba(255, 255, 255, 0), #192847);
+    background: linear-gradient(rgba(255, 255, 255, 0) 50%, #192847);
     width: 100%;
     height: 100%;
-}
-
-#Bloc_1_Carrousel {
-    width: 100%;
-    height: 100%;
-    position: relative;
 }
 
 .part2 .content {
@@ -90,13 +85,6 @@ h1 {
     left: 25px;
     padding: 20px;
     z-index: 11;
-}
-
-.part2 .content h2 {
-    font-size: 42px;
-    line-height: 50px;
-    font-weight: 400;
-    width: 1030px;
 }
 
 .part2 .content>p:first-child {
@@ -112,21 +100,51 @@ h1 {
     width: 1030px;
 }
 
-#Bloc_1-fleche_g {
-    display: none;
-    position: relative;
-    top: -650px;
-    left: 40px;
-    width: 40px;
-    height: 40px;
-    z-index: 13;
+.part2 h2 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 400;
+    padding-right: 500px;
+}
+
+.slider {
+    height: 739px;
+    width: 1448px;
+}
+
+.slider_nav {
+    position: absolute;
+    z-index: 20;
+}
+
+.slider_content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.slider_content_item {
+    height: 100%;
+    min-width: 100%;
+}
+
+.slider_content_item img {
+    height: 100%;
+    width: 100%;
 }
 
 #Bloc_1-fleche_d {
-    position: relative;
-    top: -650px;
-    left: 1300px;
-    width: 40px;
-    height: 40px;
-    z-index: 13;
+    display: block;
+    position: absolute;
+    left: 1350px;
+    top: 300px;
+}
+
+#Bloc_1-fleche_g {
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 25px;
 }

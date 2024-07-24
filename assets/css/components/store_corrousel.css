@@ -24,6 +24,8 @@
 .maillot_carrousel {
     display: flex;
     margin-left: 80px;
+    overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 .maillot_carrousel h3 {

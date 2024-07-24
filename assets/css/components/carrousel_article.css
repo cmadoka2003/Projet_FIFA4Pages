@@ -23,7 +23,11 @@
 
 .carrousel {
     display: flex;
+    overflow: hidden;
     padding-left: 80px;
+    position: relative;
+    left: 0px;
+    scroll-behavior: smooth;
 }
 
 .carrousel h3 {
@@ -80,8 +84,8 @@
 
 #Bloc_4-fleche_g {
     position: relative;
-    display: none;
     top: -230px;
+    left: 50px;
     width: 28px;
     height: 32px;
 }
@@ -89,31 +93,31 @@
 #Bloc_4-fleche_d {
     position: relative;
     top: -230px;
-    left: 1850px;
+    left: 1800px;
     width: 28px;
     height: 32px;
 }
 
 #Bloc_5-fleche_g {
     position: relative;
-    display: none;
-    top: -230px;
+    top: -210px;
+    left: 50px;
     width: 28px;
     height: 32px;
 }
 
 #Bloc_5-fleche_d {
     position: relative;
-    top: -230px;
-    left: 1850px;
+    top: -210px;
+    left: 1800px;
     width: 28px;
     height: 32px;
 }
 
 #Bloc_7-fleche_g {
     position: relative;
-    display: none;
     top: -230px;
+    left: 50px;
     width: 28px;
     height: 32px;
 }
@@ -121,15 +125,15 @@
 #Bloc_7-fleche_d {
     position: relative;
     top: -230px;
-    left: 1850px;
+    left: 1800px;
     width: 28px;
     height: 32px;
 }
 
 #Bloc_8-fleche_g {
     position: relative;
-    display: none;
     top: -230px;
+    left: 50px;
     width: 28px;
     height: 32px;
 }
@@ -137,7 +141,7 @@
 #Bloc_8-fleche_d {
     position: relative;
     top: -230px;
-    left: 1850px;
+    left: 1800px;
     width: 28px;
     height: 32px;
 }
