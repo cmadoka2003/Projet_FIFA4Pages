@@ -16,7 +16,6 @@ body {
 #app-container {
     max-width: 1920px;
     width: 100%;
-    height: 8400px;
     background: #EEF2FB;
     position: relative;
 }
@@ -157,7 +156,6 @@ footer {
     display: flex;
     margin-left: 50px;
     margin-top: 15px;
-    margin-bottom: 50px;
 }
 
 .footer_bottom p {
