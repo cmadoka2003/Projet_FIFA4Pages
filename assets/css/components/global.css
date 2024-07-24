@@ -6,15 +6,22 @@
 
 body {
     font-family: "Poppins";
-    width: 1920px;
-    height: 8372px;
+    width: 100%;
     overflow-x: hidden;
+    background: #045694;
+}
+
+#app-container {
+    width: 1920px;
+    height: 8300px;
     background: #EEF2FB;
+    position: relative;
 }
 
 header {
     position: sticky;
     top: 0;
+    z-index: 999;
     background: #045694;
 }
 
@@ -48,7 +55,7 @@ li a{
     padding-top: 10px;
 }
 
-.menu-bottom>img:nth-child(2) {
+.menu-bottom a img {
     width: 104px;
     height: 50px;
     padding-top: 10px;
@@ -82,3 +89,76 @@ li a{
     height: 25px;
 }
 
+.footer_top {
+    display: flex;
+}
+
+.footer_top img {
+    height: 30px;
+    margin-top: 10px;
+}
+
+.footer_top a img {
+    width: 73px;
+    height: 24px;
+    margin-left: 60px;
+    margin-top: 10px;
+} 
+
+.rs {
+    margin-left: 280px;
+    width: 700px;
+}
+
+.rs img {
+    width: 22px;
+    height: 22px;
+    margin-right: 32px;
+}
+
+.footer_top p {
+    color: white;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.footer_mid p{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 1920px;
+    text-align: center;
+}
+
+.partners {
+    display: flex;
+    margin-left: 500px;
+    width: 700px;
+}
+
+.partners img {
+    width: 100px;
+    height: 50px;
+    margin-right: 100px;
+}
+
+.footer_bottom {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.footer_bottom p {
+    color: white;
+    margin-right: 20px;
+}
+
+#credits {
+    width: 280px;
+    margin-left: 700px;
+}
+
+#credits a {
+    color: white;
+}

@@ -1,0 +1,55 @@
+.Bloc_9 {
+    width: 1920px;
+    height: 906px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.Bloc_9 img {
+    height: 906px;
+    left: -300px;
+    position: relative;
+}
+
+.Bloc_9 .filtre {
+    background-color: #1928475d;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.Bloc_9 .content {
+    position: relative;
+    z-index: 11;
+    top: -500px;
+    left: 50px;
+}
+
+.Bloc_9 .content h2 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 400;
+    position: relative;
+    top: -80px;
+}
+
+.Bloc_9 .content p {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    width: 900px;
+    position: relative;
+    top: -60px;
+}
+
+.Bloc_9 .content button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 16px;
+    position: relative;
+    top: -25px;
+}
