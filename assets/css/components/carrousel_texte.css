@@ -1,0 +1,126 @@
+.Bloc_1 {
+    display: flex;
+}
+
+.part1 {
+    background: no-repeat center/cover url(/assets/img/General-Ticketing-Promo-Box-DT.webp);
+    width: 476.992px;
+    height: 739px;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+}
+
+.part1 .content {
+    position: relative;
+    top: 250px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 47px;
+    font-weight: 400
+}
+
+.part1 .content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+#part1btn {
+    background: #0A84FF;
+    width: 278px;
+    height: 42px;
+    border: 1px solid #0A84FF;
+    border-radius: 20px;
+}
+
+#part1btn a {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 26px;
+    padding: 8px 28px;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+#part1btn:hover {
+    animation: zoom 1s ease;
+    transform: scale(1.1);
+}
+
+
+.part2 {
+    width: 1448.773px;
+    height: 739px;
+    color: white;
+}
+
+.part2 .filtre {
+    background: linear-gradient(rgba(255, 255, 255, 0), #192847);
+    width: 100%;
+    height: 100%;
+}
+
+#Bloc_1_Carrousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -999;
+}
+
+.part2 .content {
+    position: relative;
+    top: -250px;
+    left: 25px;
+    padding: 20px;
+}
+
+.part2 .content h2 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 400;
+    width: 1030px;
+}
+
+.part2 .content>p:first-child {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.part2 .content>p:last-child {
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    width: 1030px;
+}
+
+#Bloc_1-fleche_g {
+    visibility: hidden;
+    position: relative;
+    top: -650px;
+    left: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+#Bloc_1-fleche_d {
+    position: relative;
+    top: -650px;
+    left: 1300px;
+    width: 40px;
+    height: 40px;
+}

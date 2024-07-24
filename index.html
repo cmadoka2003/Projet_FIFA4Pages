@@ -1,15 +1,571 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="menu-top">
+            <ul class="first-menu">
+                <li><a href="#">ACHETER DES BILLETS</a></li>
+                <li><a href="#">FIFA+</a></li>
+                <li><a href="#">FIFA STORE</a></li>
+                <li><a href="#">INSIDE FIFA</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <nav class="menu-bottom">
+            <img src="assets/img/button.png" alt="ouvre un menu burger" id="burger">
+            <img src="assets/img/FIFA_Logo_White_Generic.webp" alt="logo de la FIFA">
+            <ul class="second-menu">
+                <li><a href="#">TOURNOIS</a></li>
+                <li><a href="#">MATCH CENTRE</a></li>
+                <li><a href="#">INFOS</a></li>
+                <li><a href="#">CLASSEMENT</a></li>
+                <li><a href="#">REGARDER SUR FIFA+</a></li>
+                <li><a href="#">JOUER</a></li>
+                <li><a href="#">BOUTIQUE</a></li>
+                <li><a href="#">INSIDE FIFA</a></li>
+            </ul>
+            <div class="search-profil">
+                <img src="assets/img/recherchesearch.png" alt="outil de recherche">
+                <img src="assets/img/Groupearth.png" alt="changer de langue">
+                <img src="assets/img/Vectorprofil.png" alt="connexion">
+            </div>
+        </nav>
+    </header>
+
+    <div id="app-container">
+        <main>
+            <div class="Bloc_1">
+                <div class="part1">
+                    <div class="content">
+                        <h1>Faites l'expérience des tournois FIFA</h1>
+                        <p>Achetez des billets et des prestations d'hospitalité pour les prochains tournois de la FIFA.
+                        </p>
+                        <button id="part1btn"><a href="#">À VOIR DÈS MAINTENANT</a></button>
+                    </div>
+
+                </div>
+                <div class="part2">
+                    <div class="filtre">
+                        <img id="Bloc_1_Carrousel" src="assets/img/Barbra_Banda2.jpg" alt="photo de barbra banda">
+                    </div>
+                    <div class="content">
+                        <p>INTERVIEW</p>
+                        <h2>Barbra Banda, la Copper Queen en quête de records</h2>
+                        <p>Après avoir déjà marqué l’histoire des jeux olympiques à tokyo, l’attaquante et capitaine de
+                            la
+                            zambie Barbra Banda compte poursuivre sur sa lancée. Elle s’est entretenue avec la FIFA.</p>
+                    </div>
+                    <img id="Bloc_1-fleche_g" src="assets/img/Fleche gauche.png" alt="changer d'article vers la gauche">
+                    <img id="Bloc_1-fleche_d" src="assets/img/Fleche droite.png" alt="changer d'article vers la droite">
+                </div>
+            </div>
+
+            <div class="Bloc_2">
+                <div class="header">
+                    <h2>À LA UNE</h2>
+                    <h3><a href="#">TOUT AFFICHER</a></h3>
+                </div>
+                <div class="content">
+                    <article>
+                        <img src="assets/img/e531d17511101f62e27d4abd0aca92d5-770x433.webp"
+                            alt="image de alexandre lacazette">
+                        <h3>Alexandre Lacazette : On veut remporter une médaille</h3>
+                        <p>le capitaine de l’équipe de france olympique se confie à la FIFA à quelque jours de l’entrée
+                            en
+                            lice des blues face aux Etats-Unis, au stade de Marseille</p>
+                    </article>
+                    <section>
+                        <article>
+                            <img src="assets/img/Javier-Aguirre-and-Rafael-Marquez-at-the-2010-FIFA-World-Cup.webp"
+                                alt="image de javier aguirre">
+                            <h3>Javier Aguirre à la tête du Mexique, Rafael Márquez nommé adjoint</h3>
+                        </article>
+                        <article>
+                            <img src="assets/img/WOFT-2024-Spain-players-with-Women-s-World-Cup-trophy-190724.webp"
+                                alt="image de l'équipe féminine de l'espagne">
+                            <h3>Les champions et championnes du monde en quête d'or olympique</h3>
+                        </article>
+                        <article>
+                            <img src="assets/img/USA-win-fourth-gold.webp" alt="image de l'équipe féminine des US">
+                            <h3>Quatrième titre pour les États-Unis</h3>
+                        </article>
+                        <article>
+                            <img src="assets/img/Brazil-win-two-in-a-row-Neymar.webp" alt="image de neymar junior">
+                            <h3>La rédemption de Neymar au Maracanã</h3>
+                        </article>
+                    </section>
+                </div>
+
+            </div>
+
+            <div class="Bloc_3">
+                <div class="header">
+                    <h2>CLASSEMENTS MONDIAUX FIFA/COCA-COLA</h2>
+                    <img src="assets/img/Coca-Cola-World-Ranking-logo.webp" alt="logo de coca-cola">
+                </div>
+                <div class="content">
+                    <div class="classMasculin">
+                        <p>Classement mondial masculin</p>
+                        <p>Last Update:<span class="gras">18 juil. 2024</span></p>
+
+                        <div class="tab-descrip">
+                            <p>Classe...</p>
+                            <p>Équipe</p>
+                            <p>Total de poi...</p>
+                            <p>+/- points</p>
+                        </div>
+
+                        <div class="accordion">
+                            <p>1</p>
+                            <p>=</p>
+                            <img src="assets/img/ARG.png" alt="drapeau argentin">
+                            <p>Argentine</p>
+                            <p>1901.48</p>
+                            <p>+41.48</p>
+                        </div>
+
+                        <div class="panel">
+                            <p>Derniers trophées : Copa América 2024, Coupe du Monde 2022, Finalissima 2022, Copa
+                                América 2022</p>
+                        </div>
+
+                        <div class="accordion">
+                            <p>2</p>
+                            <p>=</p>
+                            <img src="assets/img/FRA.png" alt="drapeau Français">
+                            <p>France</p>
+                            <p>1854.91</p>
+                            <p>+17.91</p>
+                        </div>
+
+                        <div class="panel">
+                            <p>Derniers trophées : Ligue des Nations 2021</p>
+                        </div>
+
+                        <div class="accordion">
+                            <p>3</p>
+                            <p class="change_p">+5</p>
+                            <img src="assets/img/ESP.png" alt="drapeau Espagnol">
+                            <p>Espagne</p>
+                            <p>1835.67</p>
+                            <p>+105.67</p>
+                        </div>
+
+                        <div class="panel">
+                            <p>Derniers trophées : UEFA EURO 2024, Ligue des Nations 2023, Ligue des Nations 2022</p>
+                        </div>
+
+                        <div class="accordion">
+                            <p>4</p>
+                            <p class="change_p">+1</p>
+                            <img src="assets/img/ENG.png" alt="drapeau Anglais">
+                            <p>Angleterre</p>
+                            <p>1812.26</p>
+                            <p>+24.26</p>
+                        </div>
+
+                        <div class="panel">
+                            <p>Derniers trophées : Aucun</p>
+                        </div>
+
+                        <div class="accordion">
+                            <p>5</p>
+                            <p class="change_n">-1</p>
+                            <img src="assets/img/BRA.png" alt="drapeau Bresil">
+                            <p>Brésil</p>
+                            <p>1785.61</p>
+                            <p>-6.39</p>
+                        </div>
+
+                        <div class="panel">
+                            <p>Derniers trophées : Aucun</p>
+                        </div>
+
+                        <button>DÉCOUVREZ LE CLASSEMENT MASCULIN</button>
+                    </div>
+
+                    <div class="classFeminin">
+                        <p>Classement mondial féminin</p>
+                        <p>Last Update:<span class="gras">14 juin 2024</span></p>
+
+                        <div class="tab-descrip">
+                            <p>Classe...</p>
+                            <p>Équipe</p>
+                            <p>Total de poi...</p>
+                            <p>+/- points</p>
+                        </div>
+
+                        <div class="accordion">
+                            <p>1</p>
+                            <p>=</p>
+                            <img src="assets/img/ESP.png" alt="drapeau Espagnol">
+                            <p>Espagne</p>
+                            <p>2099.89</p>
+                            <p>+13.89</p>
+                        </div>
+
+                        <div class="panel">
+                            <p>Derniers trophées : Ligue des Nations féminin 2024, Coupe du Monde féminin 2023</p>
+                        </div>
+
+                        <div class="accordion">
+                            <p>2</p>
+                            <p class="change_p">+1</p>
+                            <img src="assets/img/FRA.png" alt="drapeau Français">
+                            <p>France</p>
+                            <p>2029.52</p>
+                            <p>+10.52</p>
+                        </div>
+
+                        <div class="panel">
+                            <p>Derniers trophées : Aucun</p>
+                        </div>
+
+                        <div class="accordion">
+                            <p>3</p>
+                            <p class="change_n">-1</p>
+                            <img src="assets/img/ENG.png" alt="drapeau Anglais">
+                            <p>Angleterre</p>
+                            <p>2023.47</p>
+                            <p>+2.47</p>
+                        </div>
+
+                        <div class="panel">
+                            <p>Derniers trophées : UEFA EURO féminine 2022</p>
+                        </div>
+
+                        <div class="accordion">
+                            <p>4</p>
+                            <p class="change_p">+1</p>
+                            <img src="assets/img/GER.png" alt="drapeau Allemand">
+                            <p>Allemagne</p>
+                            <p>2018.49</p>
+                            <p>+13.49</p>
+                        </div>
+
+                        <div class="panel">
+                            <p>Derniers trophées : Aucun</p>
+                        </div>
+
+                        <div class="accordion">
+                            <p>5</p>
+                            <p class="change_n">-1</p>
+                            <img src="assets/img/USA.png" alt="drapeau des États-Unis">
+                            <p>Etats-Unis</p>
+                            <p>2015.95</p>
+                            <p>+4.95</p>
+                        </div>
+
+                        <div class="panel">
+                            <p>Derniers trophées : Championnat féminin de la CONCACAF 2022</p>
+                        </div>
+
+                        <button>DÉCOUVREZ LE CLASSEMENT FÉMININ</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="Bloc_4">
+                <div class="header">
+                    <h2>INSIDE FIFA</h2>
+                    <p>TOUT AFFICHER</p>
+                </div>
+                <div class="carrousel">
+                    <article>
+                        <img src="assets/img/FIFA-World-Cup-Official-Hospitality-Programme.webp"
+                            alt="photo de supporters du mexique, puerto rico et canada">
+                        <h3>On location désigné partenaire hospitalité officiel</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/MA-Flags-at-HoF.webp" alt="photo de différents drapeau">
+                        <h3>Déclaration de la FIFA</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/Argentina-v-Uzbekistan-Group-A-FIFA-U-20-World-Cup-Argentina-2023.webp"
+                            alt="photo de l'arbitre françois letexier">
+                        <h3>François letexier en forme olympique</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/OFC-Preliminary-Draw-for-the-FIFA-World-Cup-26.webp"
+                            alt="photo du president de la FIFA">
+                        <h3>Les qualifications pour la Coupe du Monde de la FIFA 2026<span class="TM">TM</span>, source
+                            de motivation pour l’Océanie</h3>
+                    </article>
+                </div>
+                <img id="Bloc_4-fleche_g" src="assets/img/Fleche gauche.png" alt="changer d'article vers la gauche">
+                <img id="Bloc_4-fleche_d" src="assets/img/Fleche droite.png" alt="changer d'article vers la droite">
+            </div>
+
+            <div class="Bloc_5">
+                <div class="header">
+                    <h2>TOURNOIS ET ÉVÉNEMENTS À VENIR</h2>
+                    <p>TOUT AFFICHER</p>
+                </div>
+                <div class="carrousel">
+                    <article>
+                        <img src="assets/img/FPS_FWC26_Hero_PostLaunch.webp" alt="logo de la Coupe du Monde 2026">
+                        <h3>Coupe du Monde de la FIFA 26<span class="TM">TM</span></h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/Olympics-Paris-2024-Logo.webp" alt="logo des JO 2024">
+                        <h3>Tournois Olympique de Football, Paris 2024</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/FIFA-_FU20WWC-Colombia_Tournament_Thumbnail_3840x2160.webp"
+                            alt="logo de la Coupe du Monde féminin U-20">
+                        <h3>Coupe du Monde Féminine U-20 de la FIFA, Colombie 2024<span class="TM">TM</span></h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/FIFA_Futsal-WC-2024_Tournament-Thumbnail_3840x2160.webp"
+                            alt="logo de la Coupe du Monde de Futsal 2024">
+                        <h3>Coupe du Monde de Futsal de la FIFA, Ouzbékistan 2024<span class="TM">TM</span></h3>
+                    </article>
+                </div>
+                <img id="Bloc_5-fleche_g" src="assets/img/Fleche gauche.png" alt="changer d'article vers la gauche">
+                <img id="Bloc_5-fleche_d" src="assets/img/Fleche droite.png" alt="changer d'article vers la droite">
+            </div>
+
+            <div class="Bloc_6">
+                <div class="filtre">
+                    <img src="assets/img/FIFA-store-FIFA-Classics-collection-banner.webp" alt="image du fifa store">
+                </div>
+                <div class="content">
+                    <img src="assets/img/FIFA-Store-Logo-13_03_23.webp" alt="logo du fifa store">
+                    <h2>FIFA Store</h2>
+                    <p>Rendez-vous sur le FIFA Store pour découvrir la nouvelle collection de FIFA Classics.</p>
+                    <button>EXPLORER MAINTENANT</button>
+                </div>
+            </div>
+
+            <div class="Bloc_7">
+                <div class="header">
+                    <h2>FIFA STORE</h2>
+                    <p>VOIR MAGASIN</p>
+                </div>
+
+                <div class="carrousel">
+                    <article>
+                        <img src="assets/img/argmaillot.PNG" alt="maillot de l'Argentine">
+                        <h3>Maillot domicile Argentine 2024 adidas - homme</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/argmaillotext.PNG" alt="maillot extérieur de l'Argentine">
+                        <h3>Maillot éxterieur Argentine
+                            2024 adidas - homme</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/JAM20F.webp" alt="maillot de la Jamaïque">
+                        <h3>Maillot domicile Jamaïque
+                            2024 adidas - homme</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/JAM20F2.webp" alt="maillot extérieur de la Jamaïque">
+                        <h3>Maillot éxterieur Jamaïque
+                            2024 adidas - homme</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/allmaillot.PNG" alt="maillot de l'Allemagne">
+                        <h3>Maillot domicile Allemagne
+                            2024 adidas - homme</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/mexmaillot.PNG" alt="maillot du mexique">
+                        <h3>Maillot domicile Mexique
+                            2024 adidas - homme</h3>
+                    </article>
+                </div>
+                <img id="Bloc_7-fleche_g" src="assets/img/Fleche gauche.png" alt="changer d'article vers la gauche">
+                <img id="Bloc_7-fleche_d" src="assets/img/Fleche droite.png" alt="changer d'article vers la droite">
+            </div>
+
+            <div class="Bloc_8">
+                <div class="header">
+                    <h2>VIVRE L'ÉXPERIENCE DES TOURNOIS FIFA</h2>
+                    <p>TOUT AFFICHER</p>
+                </div>
+                <div class="carrousel">
+                    <article>
+                        <img src="assets/img/OFT-Ticketing-Thumbnail.webp" alt="logo des JO 2024">
+                        <h3>Billets pour les Tournois Olympiques de Football de Paris 2024</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/FIFA-_FU20WWC-Colombia_Tournament_Thumbnail_3840x2160.webp"
+                            alt="logo de la Coupe du monde féminin U-20">
+                        <h3>Billets pour la Coupe du Monde Féminine U-20 de la FIFA, Colombie 2024<span
+                                class="TM">TM</span></h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/FIFA_Futsal-WC-2024_Tournament-Thumbnail_3840x2160.webp"
+                            alt="logo de la Coupe du Monde DE Futsal">
+                        <h3>Manifestez votre intérêt pour des billets de la Coupe du Monde de Futsal de la FIFA,
+                            Ouzbékistan 2024<span class="TM">TM</span></h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/548_FIFA-FAST_U-17-Women-s-World-Cup-Dominican-Republic-2024-Brand-Launch-Alex-Registr-your-Interest-Thumbnail-3840x2160.webp"
+                            alt="logo de la Coupe du Monde Féminine U-17">
+                        <h3>>Manifestez votre intérêt pour des billets de la Coupe du Monde Féminine U-17 de la FIFA,
+                            République Dominicaine 2024<span class="TM">TM</span></h3>
+                    </article>
+                </div>
+                <img id="Bloc_5-fleche_g" src="assets/img/Fleche gauche.png" alt="changer d'article vers la gauche">
+                <img id="Bloc_5-fleche_d" src="assets/img/Fleche droite.png" alt="changer d'article vers la droite">
+            </div>
+
+            <div class="Bloc_9">
+                <div class="filtre">
+                    <img src="assets/img/FIFAPLS_Tournaments_FIFALive_Hero_01.webp" alt="image de fifa+">
+                </div>
+                <div class="content">
+                    <h2>FIFA+</h2>
+                    <p>Explorez la plateforme de streaming officielle de la FIFA.</p>
+                    <button>À VOIR SUR FIFA+</button>
+                </div>
+            </div>
+
+            <div class="Bloc_10">
+                <div class="header">
+                    <h2>LES STORIES DE LA COUPE DU MONDE DE LA FIFA</h2>
+                </div>
+                <div class="carrousel">
+                    <article>
+                        <img src="assets/img/Homara-Sawa-Japan-2011-World-Cup-Win-Getty.webp"
+                            alt="image de Sawa soulevant la coupe du monde avec ses coéqipiers">
+                        <h3>Premier du Japon</h3>
+                        <p>En ce jour : Japon vs Etats-Uni...</p>
+                    </article>
+                    <article>
+                        <img src="assets/img/Gary-Lineker-in-action-against-Paraguay-at-Mexico-86.webp"
+                            alt="image de Gary Lineker">
+                        <h3>Viva Mexico</h3>
+                        <p>Revivez tous les buts de la Co...</p>
+                    </article>
+                    <article>
+                        <img src="assets/img/999468534.webp"
+                            alt="image du but de Mbappé en final de la Coupe du Monde 2018">
+                        <h3>Le triomphe de la Fran...</h3>
+                        <p>Renvoyez France - Croatie | Ru....</p>
+                    </article>
+                    <article>
+                        <img src="assets/img/79647699.webp" alt="image de maradona en coupe de monde 1986">
+                        <h3>Un Temple de Triomphe</h3>
+                        <p>En ce jour: l’ouverture du Esta...</p>
+                    </article>
+                    <article>
+                        <img src="assets/img/Brazil-celebration.webp"
+                            alt="image d'une célebration entre deux joueuses brésiliennes">
+                        <h3>Le show dans le Maryl...</h3>
+                        <p>Revivez Brésil - Nigeria | États...</p>
+                    </article>
+                    <article>
+                        <img src="assets/img/FACTS-promo.webp" alt="image d'un gardien essayant d'arreter un ballon">
+                        <h3>FACTS</h3>
+                        <p>Découvrez les insights des cl...</p>
+                    </article>
+                </div>
+                <img id="Bloc_5-fleche_g" src="assets/img/Fleche gauche.png" alt="changer d'article vers la gauche">
+                <img id="Bloc_5-fleche_d" src="assets/img/Fleche droite.png" alt="changer d'article vers la droite">
+            </div>
+
+            <div class="Bloc_11">
+                <div class="filtre">
+                    <img src="assets/img/FIFAPLS_Tournaments_FIFALive_Hero_01.webp" alt="image d'inside FIFA">
+                </div>
+                <div class="content">
+                    <h2>INSIDE FIFA</h2>
+                    <p>Les dernières nouvelles sur la FIFA, ses 211 associations membres et sur leurs actions pour
+                        célébrer le pouvoir du football d'unir le monde. CTA : En savoir plus</p>
+                    <button>EN SAVOIR PLUS</button>
+                </div>
+            </div>
+
+            <div class="Bloc_12">
+                <div class="header">
+                    <h2>Ce que fait la FIFA</h2>
+                </div>
+                <div class="carrousel">
+                    <article>
+                        <img src="assets/img/FIFA-sign-at-the-Home-of-FIFA.webp" alt="logo de fifa devant un batiment">
+                        <h3>Juridique</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/FIFA-Women-s-Football-Development-Workshop-South-Sudan.webp"
+                            alt="image de plusieurs femmes en train de célébré">
+                        <h3>Football Féminin</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/Lao-Women-s-league-2023.webp" alt="image montrant une joueuse célébré">
+                        <h3>Développement du Football</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/Switzerland-v-Spain-Round-of-16-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023.webp"
+                            alt="image d'un brassard de arbitre">
+                        <h3>Arbitrage</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/NEW-ZEALAND-Knowledge-Capture-Brief-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023.webp"
+                            alt="image d'un ballon et d'une montre">
+                        <h3>Technologie</h3>
+                    </article>
+                    <article>
+                        <img src="assets/img/FIFA-High-Performance-Football-Performance-Analysis-Insights.webp"
+                            alt="image d'un écran affichant un match">
+                        <h3>Análisis técnico del juego</h3>
+                    </article>
+                </div>
+                <img id="Bloc_5-fleche_g" src="assets/img/Fleche gauche.png" alt="changer d'article vers la gauche">
+                <img id="Bloc_5-fleche_d" src="assets/img/Fleche droite.png" alt="changer d'article vers la droite">
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer_top">
+            <img src="assets/img/FIFA_Logo_White_Generic.webp" alt="logo de la FIFA">
+            <div class="rs">
+                <img src="assets/img/prime_twitter.png" alt="logo de twitter">
+                <img src="assets/img/ri_facebook-fill.png" alt="logo de facebook">
+                <img src="assets/img/lets-icons_insta.png" alt="logo d'instagram">
+                <img src="assets/img/ri_youtube-fill.png" alt="logo youtube">
+                <img src="assets/img/ic_baseline-tiktok.png" alt="logo tik tok">
+            </div>
+            <p>Télécharger dès maintenant FIFA pour plus de contenus</p>
+        </div>
+        <hr>
+        <div class="footer_mid">
+            <p>FIFA PARTNERS</p>
+            <div class="partners">
+                <img src="assets/img/webimage-E040C0FB-B0C3-411B-9D407A4501191D23.png" alt="logo de aramco">
+                <img src="assets/img/gg_adidas.png" alt="logo d'adidas">
+                <img src="assets/img/simple-icons_cocacola.png" alt="logo de coca cola">
+                <img src="assets/img/webimage-318366C4-78D6-4E45-8AA361F4F8998A54.png" alt="logo de hyundai KN">
+                <img src="assets/img/webimage-0832E3C8-17F9-426F-89DBD13DA23566FE.png" alt="logo qatar airways">
+                <img src="assets/img/ri_visa-line.png" alt="logo visa">
+            </div>
+        </div>
+        <hr>
+        <div class="footer_bottom">
+            <p>POLITIQUE DE CONFIDENTIALITÉ</p>
+            <p>CONDITIONS D’UTILISATION</p>
+            <p>GÉRER VOS PRÉFÉRENCES SUR LES COOKIES</p>
+        </div>
+    </footer>
 
 
     <script src="assets/js/app.js"></script>
 </body>
+
 </html>
