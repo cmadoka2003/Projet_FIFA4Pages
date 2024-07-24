@@ -1,0 +1,67 @@
+
+.inside_header h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.inside_carrousel {
+    display: flex;
+    margin-left: 80px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.inside_carrousel h3 {
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    position: relative;
+}
+
+.inside_carrousel article {
+    margin-right: 25px;
+    width: 270px;
+    height: 500px;
+    position: relative;
+}
+
+.inside_carrousel img {
+    border-radius: 10px;
+    width: 270px;
+    height: 475px;
+}
+
+.inside_carrousel article .zoom {
+    overflow: hidden;
+    width: 270px;
+    height: 475px;
+    border-radius: 10px;
+}
+
+.inside_carrousel article .zoom:hover img {
+    animation: imgzoom 1s ease;
+    transform: scale(1.1);
+}
+
+
+#Bloc_12-fleche_g {
+    position: relative;
+    z-index: 999;
+    top: -270px;
+    left: 50px;
+    width: 28px;
+    height: 32px;
+}
+
+#Bloc_12-fleche_d {
+    position: relative;
+    z-index: 999;
+    top: -270px;
+    left: 1800px;
+    width: 28px;
+    height: 32px;
+}

@@ -1,0 +1,150 @@
+.inside-FIFA_header {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-left: 80px;
+}
+
+.inside-FIFA_header h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.inside-FIFA_header p {
+    color: #0A84FF;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    position: relative;
+    left: 1500px;
+    top: 20px;
+}
+
+.carrousel {
+    display: flex;
+    overflow: hidden;
+    padding-left: 80px;
+    position: relative;
+    left: 0px;
+    scroll-behavior: smooth;
+}
+
+.carrousel h3 {
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    padding-right: 50px;
+}
+
+.carrousel article {
+    margin-right: 25px;
+    width: 416px;
+}
+
+.carrousel img {
+    border-radius: 10px;
+    width: 416px;
+    height: 261px;
+}
+
+.carrousel article .zoom {
+    overflow: hidden;
+    width: 416px;
+    border-radius: 10px;
+}
+
+.carrousel article .zoom:hover img {
+    animation: imgzoom 1s ease;
+    transform: scale(1.1);
+}
+
+.tournoi_header {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.tournoi_header h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.tournoi_header p {
+    color: #0A84FF;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    position: relative;
+    left: 1220px;
+    top: 20px;
+}
+
+#Bloc_4-fleche_g {
+    position: relative;
+    top: -230px;
+    left: 50px;
+    width: 28px;
+    height: 32px;
+}
+
+#Bloc_4-fleche_d {
+    position: relative;
+    top: -230px;
+    left: 1800px;
+    width: 28px;
+    height: 32px;
+}
+
+#Bloc_5-fleche_g {
+    position: relative;
+    top: -210px;
+    left: 50px;
+    width: 28px;
+    height: 32px;
+}
+
+#Bloc_5-fleche_d {
+    position: relative;
+    top: -210px;
+    left: 1800px;
+    width: 28px;
+    height: 32px;
+}
+
+#Bloc_7-fleche_g {
+    position: relative;
+    top: -230px;
+    left: 50px;
+    width: 28px;
+    height: 32px;
+}
+
+#Bloc_7-fleche_d {
+    position: relative;
+    top: -230px;
+    left: 1800px;
+    width: 28px;
+    height: 32px;
+}
+
+#Bloc_8-fleche_g {
+    position: relative;
+    top: -230px;
+    left: 50px;
+    width: 28px;
+    height: 32px;
+}
+
+#Bloc_8-fleche_d {
+    position: relative;
+    top: -230px;
+    left: 1800px;
+    width: 28px;
+    height: 32px;
+}
+
+
+
