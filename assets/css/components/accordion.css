@@ -186,3 +186,143 @@
 .discover:hover .fleche {
     animation: fleche 1s ease;
 }
+
+@media screen and (max-width: 1878px) {
+    .accordion {
+        width: 584px;
+    }
+
+    .class_header img {
+        width: 110px;
+        height: 30px;
+        position: relative;
+        left: 580px
+    }
+
+    .tab-descrip>p:nth-child(2) {
+        margin-right: 210px;
+    }
+
+    .accordion>p:nth-child(4) {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 1428px) {
+
+    .class_header {
+        padding-left: 70px;
+    }
+
+    .class_content {
+        padding-left: 70px;
+    }
+
+    .class_header h2 {
+        font-size: 19px;
+    }
+
+    .classMasculin>p:first-child, .classFeminin>p:first-child {
+        font-size: 13px;
+    }
+    
+    .classMasculin>p:nth-child(2), .classFeminin>p:nth-child(2) {
+        font-size: 9px;
+    }
+
+    .accordion {
+        width: 420px;
+    }
+
+    .class_header img {
+        width: 110px;
+        height: 30px;
+        position: relative;
+        left: 350px
+    }
+
+    .tab-descrip>p:nth-child(2) {
+        margin-right: 160px;
+    }
+
+    .tab-descrip>p:nth-child(4) {
+        display: none;
+    }
+
+    .accordion>p:nth-child(4) {
+        width: 220px;
+    }
+
+    .accordion>p:nth-child(6) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1036px) {
+
+    .class_header {
+        padding-left: 15px;
+    }
+
+    .class_content {
+        padding-left: 15px;
+        flex-direction: column;
+    }
+
+    .class_header h2 {
+        font-size: 19px;
+    }
+
+    .classMasculin>p:first-child, .classFeminin>p:first-child {
+        font-size: 15px;
+    }
+    
+    .classMasculin>p:nth-child(2), .classFeminin>p:nth-child(2) {
+        font-size: 9px;
+    }
+
+    .accordion {
+        width: 395px;
+    }
+
+    .class_header img {
+        width: 130px;
+        height: 50px;
+        position: relative;
+        left: -285px;
+        top: -55px;
+    }
+
+    .tab-descrip>p:nth-child(2) {
+        margin-right: 90px;
+    }
+
+    .tab-descrip>p:nth-child(3) {
+        position: relative;
+        left: 40px;
+    }
+
+    .tab-descrip>p:nth-child(4) {
+        display: none;
+    }
+
+    .accordion>p:nth-child(4) {
+        width: 150px;
+    }
+
+    .accordion>p:nth-child(6) {
+        display: none;
+    }
+
+    .discover {
+        font-family: "Poppins";
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #0A84FF;
+        background: #ffffff00;
+        padding: 10px 32px;
+        margin: 15px 0;
+    }
+    
+}

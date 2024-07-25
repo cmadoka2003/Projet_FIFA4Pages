@@ -109,7 +109,7 @@ h1 {
 
 .slider {
     height: 739px;
-    width: 1448px;
+    width: 100%;
 }
 
 .slider_nav {
@@ -138,13 +138,221 @@ h1 {
 #Bloc_1-fleche_d {
     display: block;
     position: absolute;
-    left: 1350px;
-    top: 300px;
+    left: 100px;
+    top: 12px;
 }
 
 #Bloc_1-fleche_g {
     display: block;
     position: absolute;
-    top: 300px;
+    top: 12px;
     left: 25px;
+}
+
+@media screen and (max-width: 1878px) {
+    .part1 {
+        width: 360px;
+        height: 576px;
+    }
+
+    .part1 .content {
+        top: 170px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+    
+    .part1 .content p {
+        font-size: 12px;
+    }
+    
+    #part1btn {
+        width: 278px;
+    }
+    
+    #part1btn a {
+        font-size: 12px;
+    }
+
+    .part2 {
+        width: 1080px;
+        height: 576px;
+    }
+
+    .slider_content_item, .slider_content, .slider {
+        height: 576px;
+    }
+    
+    #Bloc_1_Carrousel{
+        height: 576px;
+    }
+
+    .part2 .content>p:first-child {
+        font-size: 14px;
+    }
+    
+    .part2 .content>p:last-child {
+        font-size: 14px;
+        width: 600px;
+    }
+    
+    .part2 h2 {
+        font-size: 22px;
+        padding-right: 0px;
+    }
+
+    #Bloc_1-fleche_d {
+        width: 29px;
+        height: 29px;
+        left: 80px;
+    }
+    
+    #Bloc_1-fleche_g {
+        width: 29px;
+        height: 29px;
+    }
+}
+
+@media screen and (max-width: 1428px) {
+    .Bloc_1 {
+        width: 100%;
+    }
+
+    .part1 {
+        width: 30%;
+        height: 434px;
+    }
+
+    .part1 .content {
+        top: 90px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+    
+    .part1 .content p {
+        font-size: 10px;
+    }
+    
+    #part1btn {
+        width: 100%;
+    }
+    
+    #part1btn a {
+        font-size: 12px;
+    }
+
+    .part2 {
+        width: 70%;
+        height: 434px;
+    }
+
+    .part2 .content {
+        top: -210px;
+    }
+
+    
+    .slider_content_item, .slider_content, .slider {
+        height: 434px;
+    }
+
+    
+    #Bloc_1_Carrousel{
+        height: 434px;
+    }
+
+    .part2 .content>p:first-child {
+        font-size: 10px;
+    }
+    
+    .part2 .content>p:last-child {
+        font-size: 10px;
+        width: 100%;
+    }
+    
+    .part2 h2 {
+        font-size: 22px;
+        line-height: 30px;
+        padding-right: 250px;
+    }
+}
+
+@media screen and (max-width: 1036px) {
+    .Bloc_1 {
+        flex-direction: column;
+    }
+
+    .part1 {
+        width: 100%;
+        height: 252px;
+        order: 2;
+    }
+
+    .part1 .content {
+        top: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+    
+    .part1 .content p {
+        font-size: 10px;
+    }
+    
+    #part1btn {
+        width: 200px;
+    }
+    
+    #part1btn a {
+        font-size: 12px;
+    }
+
+    .part2 {
+        width: 100%;
+        height: 272px;
+    }
+    
+    #Bloc_1_Carrousel{
+        height: 272px;
+    }
+
+    .part2 .content {
+        top: -200px;
+        left: 0px;
+    }
+
+    .part2 .content>p:first-child {
+        font-size: 10px;
+    }
+    
+    .part2 .content>p:last-child {
+        font-size: 10px;
+        line-height: 18px;
+        width: 250px;
+    }
+    
+    .part2 h2 {
+        font-size: 22px;
+        line-height: 30px;
+        padding-right: 50px;
+    }
+
+    .slider_content_item, .slider_content, .slider {
+        height: 272px;
+    }
+
+
+    #Bloc_1-fleche_d {
+        width: 24px;
+        height: 24px;
+        left: 80px;
+    }
+    
+    #Bloc_1-fleche_g {
+        width: 24px;
+        height: 24px;
+    }
 }

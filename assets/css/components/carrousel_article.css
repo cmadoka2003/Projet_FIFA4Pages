@@ -84,67 +84,299 @@
 
 #Bloc_4-fleche_g {
     position: relative;
-    top: -230px;
-    left: 50px;
+    top: -400px;
+    left: 250px;
     width: 28px;
-    height: 32px;
+    height: 28px;
 }
 
 #Bloc_4-fleche_d {
     position: relative;
-    top: -230px;
-    left: 1800px;
+    top: -400px;
+    left: 250px;
     width: 28px;
-    height: 32px;
+    height: 28px;
 }
 
 #Bloc_5-fleche_g {
     position: relative;
-    top: -210px;
-    left: 50px;
+    top: -375px;
+    left: 500px;
     width: 28px;
-    height: 32px;
+    height: 28px;
 }
 
 #Bloc_5-fleche_d {
     position: relative;
-    top: -210px;
-    left: 1800px;
+    top: -375px;
+    left: 500px;
     width: 28px;
-    height: 32px;
+    height: 28px;
 }
 
 #Bloc_7-fleche_g {
     position: relative;
-    top: -230px;
-    left: 50px;
+    top: -400px;
+    left: 250px;
     width: 28px;
-    height: 32px;
+    height: 28px;
 }
 
 #Bloc_7-fleche_d {
     position: relative;
-    top: -230px;
-    left: 1800px;
+    top: -400px;
+    left: 250px;
     width: 28px;
-    height: 32px;
+    height: 28px;
 }
 
 #Bloc_8-fleche_g {
     position: relative;
-    top: -230px;
-    left: 50px;
+    top: -400px;
+    left: 550px;
     width: 28px;
-    height: 32px;
+    height: 28px;
 }
 
 #Bloc_8-fleche_d {
     position: relative;
-    top: -230px;
-    left: 1800px;
+    top: -400px;
+    left: 550px;
     width: 28px;
-    height: 32px;
+    height: 28px;
 }
 
+@media screen and (max-width: 1878px) {
+    .carrousel h3 {
+        font-size: 14px;
+        line-height: 29px;
+        font-weight: 400;
+        padding-right: 50px;
+    }
 
+    .carrousel article {
+        margin-right: 25px;
+        width: 306px;
+    }
 
+    .carrousel img {
+        border-radius: 10px;
+        width: 306px;
+        height: 172px;
+    }
+
+    .carrousel article .zoom {
+        overflow: hidden;
+        width: 306px;
+        border-radius: 10px;
+    }
+
+    #Bloc_4-fleche_g {
+        top: -335px;
+        left: 250px;
+        width: 28px;
+        height: 28px;
+    }
+    
+    #Bloc_4-fleche_d {
+        top: -335px;
+        left: 250px;
+        width: 28px;
+        height: 28px;
+    }
+    
+    #Bloc_5-fleche_g {
+        top: -315px;
+        left: 500px;
+        width: 28px;
+        height: 28px;
+    }
+    
+    #Bloc_5-fleche_d {
+        top: -315px;
+        left: 500px;
+        width: 28px;
+        height: 28px;
+    }
+    
+    #Bloc_8-fleche_g {
+        top: -340px;
+        left: 550px;
+        width: 28px;
+        height: 28px;
+    }
+    
+    #Bloc_8-fleche_d {
+        top: -340px;
+        left: 550px;
+        width: 28px;
+        height: 28px;
+    }
+
+}
+
+@media screen and (max-width: 1428px) {
+    .carrousel h3 {
+        font-size: 12px;
+        line-height: 16px;
+        padding-right: 20px;
+    }
+
+    .carrousel article {
+        margin-right: 25px;
+        width: 201px;
+    }
+
+    .carrousel img {
+        border-radius: 10px;
+        width: 201px;
+        height: 113px;
+    }
+
+    .carrousel article .zoom {
+        overflow: hidden;
+        width: 201px;
+        border-radius: 10px;
+    }
+
+    #Bloc_4-fleche_g {
+        top: -245px;
+        left: 250px;
+        width: 22px;
+        height: 22px;
+    }
+    
+    #Bloc_4-fleche_d {
+        top: -245px;
+        left: 250px;
+        width: 22px;
+        height: 22px;
+    }
+    
+    #Bloc_5-fleche_g {
+        top: -210px;
+        left: 500px;
+        width: 22px;
+        height: 22px;
+    }
+    
+    #Bloc_5-fleche_d {
+        top: -210px;
+        left: 500px;
+        width: 22px;
+        height: 22px;
+    }
+    
+    #Bloc_8-fleche_g {
+        top: -245px;
+        left: 550px;
+        width: 22px;
+        height: 22px;
+    }
+    
+    #Bloc_8-fleche_d {
+        top: -245px;
+        left: 550px;
+        width: 22px;
+        height: 22px;
+    }
+
+}
+
+@media screen and (max-width: 1036px) {
+    .inside-FIFA_header {
+        padding-left: 15px;
+    }
+
+    .tournoi_header {
+        margin-left: 15px;
+    }
+
+    .inside-FIFA_header h2 {
+        font-size: 15px;
+    }
+
+    .tournoi_header h2 {
+        font-size: 15px;
+        line-height: 16px;
+        width: 200px;
+    }
+
+    .inside-FIFA_header p {
+        font-size: 12px;
+        left: 230px;
+        top: 20px;
+    }
+
+    .tournoi_header p {
+        font-size: 12px;
+        left: 110px;
+        top: 20px;
+    }
+
+    .carrousel {
+        padding-left: 15px;
+    }
+
+    
+    .carrousel article {
+        margin-right: 25px;
+        width: 190px;
+    }
+
+    .carrousel img {
+        border-radius: 10px;
+        width: 190px;
+        height: 113px;
+    }
+
+    .carrousel article .zoom {
+        overflow: hidden;
+        width: 201px;
+        border-radius: 10px;
+    }
+    
+
+    #Bloc_4-fleche_g {
+        top: -240px;
+        left: 120px;
+        width: 22px;
+        height: 22px;
+    }
+    
+    #Bloc_4-fleche_d {
+        top: -240px;
+        left: 120px;
+        width: 22px;
+        height: 22px;
+    }
+    
+    #Bloc_5-fleche_g {
+        top: -210px;
+        left: 210px;
+        width: 22px;
+        height: 22px;
+    }
+    
+    #Bloc_5-fleche_d {
+        top: -210px;
+        left: 210px;
+        width: 22px;
+        height: 22px;
+    }
+    
+    #Bloc_8-fleche_g {
+        top: -245px;
+        left: 210px;
+        width: 22px;
+        height: 22px;
+    }
+    
+    #Bloc_8-fleche_d {
+        top: -245px;
+        left: 210px;
+        width: 22px;
+        height: 22px;
+    }
+
+}
