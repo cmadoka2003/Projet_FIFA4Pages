@@ -4,15 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
     let bloc1_next = document.querySelector("#Bloc_1-fleche_d");
 
     bloc1_next.addEventListener("click", () => {
-        const widthSlider = document.querySelector(".slider").offsetWidth;
         const sliderContent = document.querySelector(".slider_content");
-        sliderContent.scrollLeft += widthSlider;
+        sliderContent.scrollLeft += 1448;
     })
 
     bloc1_previous.addEventListener("click", () => {
-        const widthSlider = document.querySelector(".slider").offsetWidth;
         const sliderContent = document.querySelector(".slider_content");
-        sliderContent.scrollLeft -= widthSlider;
+        sliderContent.scrollLeft -= 1448;
     })
 
 ///////////////////////////////////////////////////////////////////////////////////
