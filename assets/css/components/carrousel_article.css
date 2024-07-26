@@ -213,6 +213,20 @@
         height: 28px;
     }
 
+    .inside-FIFA_header p {
+        left: 1080px;
+        top: 20px;
+    }
+
+    .tournoi_header p {
+        left: 800px;
+        top: 20px;
+    }
+
+    .Bloc_8 .tournoi_header p {
+        left: 750px;
+    }
+
 }
 
 @media screen and (max-width: 1428px) {
@@ -281,6 +295,19 @@
         height: 22px;
     }
 
+    .inside-FIFA_header p {
+        left: 680px;
+        top: 20px;
+    }
+
+    .tournoi_header p {
+        left: 400px;
+        top: 20px;
+    }
+
+    .Bloc_8 .tournoi_header p {
+        left: 350px;
+    }
 }
 
 @media screen and (max-width: 1036px) {
