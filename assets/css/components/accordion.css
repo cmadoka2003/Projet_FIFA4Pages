@@ -206,6 +206,10 @@
     .accordion>p:nth-child(4) {
         width: 220px;
     }
+
+    .Bloc_1 .discover {
+        left: 650px;
+    }
 }
 
 @media screen and (max-width: 1428px) {
@@ -256,6 +260,11 @@
     .accordion>p:nth-child(6) {
         display: none;
     }
+
+    .Bloc_1 .discover {
+        left: 450px;
+    }
+
 }
 
 @media screen and (max-width: 1036px) {
@@ -324,5 +333,10 @@
         padding: 10px 32px;
         margin: 15px 0;
     }
+
+    .Bloc_1 .discover {
+        left: 150px;
+    }
     
 }
+

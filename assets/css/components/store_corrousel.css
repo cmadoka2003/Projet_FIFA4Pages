@@ -92,6 +92,10 @@
         width: 28px;
         height: 28px;
     }
+
+    .maillot_header p {
+        left: 1080px;
+    }
 }
 
 @media screen and (max-width: 1428px) {
@@ -129,6 +133,10 @@
         left: 250px;
         width: 28px;
         height: 28px;
+    }
+
+    .maillot_header p {
+        left: 680px;
     }
 }
 
@@ -177,4 +185,10 @@
         width: 28px;
         height: 28px;
     }
+
+    .maillot_header p {
+        left: 180px;
+        font-size: 12px;
+    }
+
 }

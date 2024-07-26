@@ -2,10 +2,46 @@
     left: 1090px;
 }
 
-.article_4 h3 {
-    width: 350px;
-}
-
 .article_4 .share {
     top: -80px;
+}
+
+@media screen and (max-width: 1878px) {
+
+    .actu_content h3 {
+        padding-right: 75px;
+    }
+
+    .Bloc_2 .header p {
+        left: 920px;
+    }
+}
+
+@media screen and (max-width: 1428px) {
+    .actu_content h3 {
+        padding-right: 25px;
+    }
+
+    .article_5 .share {
+        top: -60px;
+    }
+
+    .article_2 .share {
+        top: -40px;
+    }
+
+
+    .article_4 .share {
+        top: -100px;
+    }
+
+    .Bloc_2 .header p {
+        left: 530px;
+    }
+}
+
+@media screen and (max-width: 1036px) {
+    .Bloc_2 .header p {
+        left: 20px;
+    }
 }
