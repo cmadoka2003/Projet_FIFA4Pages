@@ -32,4 +32,19 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    
+    const menu = document.querySelector("#phone")
+    let phonemenu = document.querySelector(".phonemenu")
+
+    menu.addEventListener("click", () => {
+        const widthPhone = document.querySelector("#app-container").offsetWidth
+        if (widthPhone == 425) {
+            if (phonemenu.style.display === "block") {
+                phonemenu.style.display = "none";
+            } else {
+                phonemenu.style.display = "block"
+            }
+        }
+    })
+
 })
