@@ -20,6 +20,29 @@ body {
     position: relative;
 }
 
+.phonemenu {
+    display: none;
+    position: absolute;
+    z-index: 20;
+    top: 60px;
+    background: #045694;
+    height: 100%;
+    width: 100%;
+    transition: 1s ease;
+}
+
+.phone_content {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.phone_content a {
+    text-decoration: none;
+    color: white;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -272,10 +295,15 @@ footer {
         display: none;
     }
 
-    .menu-bottom a img {
+    .menu-bottom a {
         position: relative;
         left: 180px;
         top: 5px;
+    }
+
+    .menu-bottom a img{
+        position: relative;
+        left: -10px;
         width: 80px;
         height: 40px;
     }
@@ -293,7 +321,7 @@ footer {
 
     .search-profil>img:nth-child(3) {
         position: relative;
-        left: 85px;
+        left: 100px;
         top: 5px;
     }
 

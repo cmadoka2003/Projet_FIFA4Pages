@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         sliderContent.scrollLeft -= wilderSlider;
     })
 
-///////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////
 
 
     let bloc4_previous = document.querySelector("#Bloc_4-fleche_g");
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         sliderContent.scrollLeft -= wilderSlider;
     })
 
-///////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////
 
 
     let bloc5_previous = document.querySelector("#Bloc_5-fleche_g");
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         sliderContent.scrollLeft -= wilderSlider;
     })
 
-///////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////
 
     let bloc7_previous = document.querySelector("#Bloc_7-fleche_g");
     let bloc7_next = document.querySelector("#Bloc_7-fleche_d");
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
         sliderContent.scrollLeft -= wilderSlider;
     })
 
-///////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////
 
     let bloc8_previous = document.querySelector("#Bloc_8-fleche_g");
     let bloc8_next = document.querySelector("#Bloc_8-fleche_d");
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
         sliderContent.scrollLeft -= wilderSlider;
     })
 
-///////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////
 
     let bloc10_previous = document.querySelector("#Bloc_10-fleche_g");
     let bloc10_next = document.querySelector("#Bloc_10-fleche_d");
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
         sliderContent.scrollLeft -= wilderSlider;
     })
 
-///////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////
 
     let bloc12_previous = document.querySelector("#Bloc_12-fleche_g");
     let bloc12_next = document.querySelector("#Bloc_12-fleche_d");
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 
 
-///////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////
 
     var acc = document.getElementsByClassName("accordion");
     var i;
@@ -138,5 +138,18 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    const menu = document.querySelector("#phone")
+    let phonemenu = document.querySelector(".phonemenu")
+
+    menu.addEventListener("click", () => {
+        const widthPhone = document.querySelector("#app-container").offsetWidth
+        if (widthPhone == 425) {
+            if (phonemenu.style.display === "block") {
+                phonemenu.style.display = "none";
+            } else {
+                phonemenu.style.display = "block"
+            }
+        }
+    })
 
 })
